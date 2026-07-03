@@ -7,10 +7,10 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Daniel Heber de Souza Godinho
+- Matricula: 909411
+- Proposta de projeto escolhida: Filmes mais bem avaliados.
+- Breve descrição sobre seu projeto: Aplicação web para ver os filmes mais bem avaliados utilizando o JSON Server. O fluxo da aplicação consiste em realizar uma requisição aos dados, tratar as informações recebidas e renderizá-las dinamicamente na interface do usuário.
 
 **Registros do trabalho**
 
@@ -18,33 +18,30 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ```json
 {
-  "cidades": [
+  "filmes": [
     {
       "id": 1,
-      "nome": "Paris",
-      "descricao": "Capital francesa famosa por arte, gastronomia e arquitetura icônica.",
-      "conteudo": "Paris oferece museus de classe mundial, boulevards arborizados e cafés charmosos. Ideal para quem busca história, cultura e experiências gastronômicas.",
-      "pais": "França",
-      "destaque": true,
-      "data": "2025-03-30",
-      "imagemPrincipal": "img/paris.jpg"
-    }
-  ],
-  "atracoes": [
-    {
-      "id": 1,
-      "cidadeId": 1,
-      "nome": "Torre Eiffel",
-      "descricao": "Monumento símbolo de Paris com mirantes panorâmicos.",
-      "imagem": "img/atracoes/torre_eiffel.jpg"
+      "titulo": "The Shawshank Redemption",
+      "tituloOriginal": "The Shawshank Redemption",
+      "ano": "1994",
+      "nota": 9.3,
+      "generos": [
+        "Drama"
+      ],
+      "sinopse": "Dois homens presos criam uma forte amizade ao longo dos anos.",
+      "poster": "https://image.tmdb.org/t/p/w500/...",
+      "backdrop": "https://image.tmdb.org/t/p/original/...",
+      "favorito": true
     }
   ]
 }
 ```
 
 << COLOQUE A IMAGEM DA HOME AQUI >>
+![alt text](/public/assets/imagens/image-1.png)
 
 << COLOQUE A IMAGEM DA TELA DE DETALHES AQUI >>
+![alt text](/public/assets/imagens/image.png)
 
 
 
